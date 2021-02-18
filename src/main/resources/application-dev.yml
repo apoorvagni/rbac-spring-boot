@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  context-path: /rbac
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rbac
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.jianglijie.rbac.entity
+
